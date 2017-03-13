@@ -29,10 +29,10 @@ namespace Grades.Tests.Types
         [TestMethod]
         public void UppercaseString()
         {
-            string name = "rosie";
+            string name = "scott";
             name = name.ToUpper();
 
-            Assert.AreEqual("ROSIE", name);
+            Assert.AreEqual("SCOTT", name);
         }
         [TestMethod]
         public void AddDaysToDateTime()
